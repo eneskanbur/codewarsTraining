@@ -1,3 +1,5 @@
+package kyu6
+
 class Bouncing {
 
     fun bouncingBall(h: Double, bounce: Double, window: Double): Int {

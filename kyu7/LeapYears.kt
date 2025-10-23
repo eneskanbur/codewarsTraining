@@ -1,3 +1,5 @@
+package kyu7
+
 class LeapYears() {
 
     fun isLeapYear(year: Int) : Boolean {

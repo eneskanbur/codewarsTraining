@@ -1,3 +1,5 @@
+package kyu8
+
 class CountPositivesSumNegatives {
 
     fun countPositivesSumNegatives(input: Array<Int>?): Array<Int> {
@@ -35,4 +37,3 @@ class CountPositivesSumNegatives {
 
 
 }
-

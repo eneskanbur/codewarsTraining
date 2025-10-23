@@ -1,3 +1,5 @@
+package kyu7
+
 class SumOfOddNumbers {
 
     fun rowSumOddNumbers(n: Int): Int {
