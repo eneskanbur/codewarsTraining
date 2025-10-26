@@ -1,8 +1,9 @@
+import kyu5.DirectionsReduction
 import kyu6.FindTheParityOutlier
 import kyu7.AlternateCapitalization
 
 fun main() {
 
-    val a = FindTheParityOutlier()
-    println(a.find(arrayOf(0,2,4,6,-3)))
+    val a = DirectionsReduction()
+    println(a.dirReduc(arrayOf("NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST")).contentToString())
 }
