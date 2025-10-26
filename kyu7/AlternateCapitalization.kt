@@ -3,8 +3,10 @@ package kyu7
 class AlternateCapitalization {
 
     fun capitalize(text: String): List<String> {
+
         var evenTextArray = text.toCharArray()
         var oddTextArray = text.toCharArray()
+
         for (capitalization in 0..<text.length) {
             if(capitalization % 2 ==0 || capitalization == 0) {
                 evenTextArray[capitalization] = (evenTextArray[capitalization].toString().uppercase()).toCharArray().first()
